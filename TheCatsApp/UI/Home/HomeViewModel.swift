@@ -14,20 +14,19 @@ class HomeViewModel {
     self.client = client
   }
   
-  var catsResponse: CatsResponse?
+  var catResponse: Array<CatResponse>?
   
   func getCats(completion: @escaping (_ succeeded: Bool) -> ()) {
-    
-    client.fetch(api: CatAPI.cats) { (result: Result<CatsResponse, Error>) in
+    client.fetch(api: CatAPI.cats) { (result: Result<[CatResponse], Error>) in
       switch result {
       case .success(let response):
-        self.catsResponse = response
+        self.catResponse = response
         completion(true)
       case .failure(let error):
-        print("a")
         print(error.localizedDescription)
         completion(false)
       }
     }
   }
 }
+

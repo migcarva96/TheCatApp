@@ -10,7 +10,7 @@ import Foundation
 class NetworkClient: Client {
   var session: URLSession = URLSession(configuration: .default)
   
-  func fetch<Request, Response>(api: Request, completion: @escaping (Result<Response, Error>) -> Void) where Request : API, Response : Decodable {
+  func fetch<Request, Response>(api: Request, completion: @escaping (Result<[Response], Error>) -> Void) where Request : API, Response : Decodable {
     do {
       let request = try api.asURLRequest()
       let dataTask = session.dataTask(with: request) { (data, response, error) in
@@ -22,7 +22,7 @@ class NetworkClient: Client {
         }
         
         do{
-          let json = try JSONDecoder().decode(Response.self, from: validData)
+          let json = try JSONDecoder().decode([Response].self, from: validData)
           DispatchQueue.main.async {
             completion(.success(json))
           }

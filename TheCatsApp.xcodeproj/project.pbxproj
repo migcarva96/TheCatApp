@@ -19,7 +19,7 @@
 		497D9CE229B68965001E35B8 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D9CE129B68965001E35B8 /* API.swift */; };
 		497D9CE429B68994001E35B8 /* CatAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D9CE329B68994001E35B8 /* CatAPI.swift */; };
 		497D9CE629B689F3001E35B8 /* EmptyBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D9CE529B689F3001E35B8 /* EmptyBody.swift */; };
-		497D9CE829B68A09001E35B8 /* CatResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D9CE729B68A09001E35B8 /* CatResponse.swift */; };
+		497D9CE829B68A09001E35B8 /* CatsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D9CE729B68A09001E35B8 /* CatsResponse.swift */; };
 		497D9CEA29B68A33001E35B8 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D9CE929B68A33001E35B8 /* NetworkError.swift */; };
 		497D9CEC29B68A4D001E35B8 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497D9CEB29B68A4D001E35B8 /* NetworkClient.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,7 @@
 		497D9CE129B68965001E35B8 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		497D9CE329B68994001E35B8 /* CatAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAPI.swift; sourceTree = "<group>"; };
 		497D9CE529B689F3001E35B8 /* EmptyBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyBody.swift; sourceTree = "<group>"; };
-		497D9CE729B68A09001E35B8 /* CatResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatResponse.swift; sourceTree = "<group>"; };
+		497D9CE729B68A09001E35B8 /* CatsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsResponse.swift; sourceTree = "<group>"; };
 		497D9CE929B68A33001E35B8 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		497D9CEB29B68A4D001E35B8 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,7 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				497D9CE529B689F3001E35B8 /* EmptyBody.swift */,
-				497D9CE729B68A09001E35B8 /* CatResponse.swift */,
+				497D9CE729B68A09001E35B8 /* CatsResponse.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -242,7 +242,7 @@
 				497D9CC329B68811001E35B8 /* SceneDelegate.swift in Sources */,
 				497D9CEC29B68A4D001E35B8 /* NetworkClient.swift in Sources */,
 				497D9CE029B6895C001E35B8 /* Client.swift in Sources */,
-				497D9CE829B68A09001E35B8 /* CatResponse.swift in Sources */,
+				497D9CE829B68A09001E35B8 /* CatsResponse.swift in Sources */,
 				496E9FC329B695E100BADD29 /* HomeTableViewCell.swift in Sources */,
 				497D9CE229B68965001E35B8 /* API.swift in Sources */,
 				497D9CDA29B688B3001E35B8 /* HomeViewModel.swift in Sources */,
@@ -395,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A62K62C5JT;
+				DEVELOPMENT_TEAM = 2WD4LJ5535;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheCatsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -427,7 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A62K62C5JT;
+				DEVELOPMENT_TEAM = 2WD4LJ5535;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheCatsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
